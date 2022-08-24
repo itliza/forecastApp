@@ -89,7 +89,7 @@ showConstantData();
 
 
 function changeImage(descr){
-    let backgroundImg = document.querySelector('.content');
+    let backgroundImg = document.querySelector('.wrapper');
     let todayData = new Date();
     let time = todayData.getHours();
    
